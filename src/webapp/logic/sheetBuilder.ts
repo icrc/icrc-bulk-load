@@ -1429,15 +1429,10 @@ function getDataElementsForSectionDataSet(dataSet: any, metadata: any, cocsByCat
     return _(allDataElements)
         .map(dataElement => metadata.get(dataElement.id))
         .compact()
-        .groupBy(dataElement => categoryComboIdByDataElementId[dataElement.id])
-        .toPairs()
-        .flatMap(([categoryComboId, dataElements]) => {
-            return dataElements.map(dataElement => ({
-                dataElement,
-                categoryOptionCombos: cocsByCatComboId[categoryComboId] || [],
-            }));
-        })
-        .value();
+        .map(dataElement => ({
+            dataElement,
+            categoryOptionCombos: cocsByCatComboId[categoryComboIdByDataElementId[dataElement.id]] || [],
+        }));
 }
 
 function getDataElementsForDefaultDataSet(dataSet: any, metadata: any, cocsByCatComboId: any) {
