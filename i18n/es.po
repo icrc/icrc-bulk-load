@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bulk Load\n"
-"POT-Creation-Date: 2026-09-04T03:02:52.457Z\n"
+"POT-Creation-Date: 2026-10-22T18:43:06.487Z\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -723,7 +723,7 @@ msgstr "Mostrar periodos en descargar plantilla"
 msgid "Advanced"
 msgstr ""
 
-msgid "Basic (only row schema)"
+msgid "Basic"
 msgstr ""
 
 msgid "Data Source Configuration"
@@ -731,6 +731,10 @@ msgstr "Fuentes de datos"
 
 msgid "Fixed Metadata / Dynamic Metadata (TODO)"
 msgstr ""
+
+#, fuzzy
+msgid "Data elements as rows (data entries as columns)"
+msgstr "Elementos de datos usados para identificar los duplicados"
 
 msgid "Styles"
 msgstr ""
@@ -906,6 +910,36 @@ msgid "Category Option - Sheet"
 msgstr "Opción de categoría - Hoja"
 
 msgid "Category Option - Row"
+msgstr "Opción de categoría - Fila"
+
+msgid "Layout"
+msgstr ""
+
+#, fuzzy
+msgid "Organisation Unit - Row"
+msgstr "Unidades Organizativa - Columna"
+
+#, fuzzy
+msgid "Period - Row"
+msgstr "Periodo - Columna"
+
+#, fuzzy
+msgid "Attribute - Row"
+msgstr "TEI ID del atributo - Fila"
+
+#, fuzzy
+msgid "Completed - Sheet"
+msgstr "Borrados"
+
+msgid "Completed - Row (optional)"
+msgstr ""
+
+#, fuzzy
+msgid "Data Element - Column"
+msgstr "Elementos de datos - Fila"
+
+#, fuzzy
+msgid "Category Option - Column"
 msgstr "Opción de categoría - Fila"
 
 msgid "Coordinates Latitude - Sheet"
@@ -1424,9 +1458,9 @@ msgid ""
 "Samaritan’s Purse, Medecins Sans Frontières (MSF), the the Norwegian Refugee "
 "Council (NRC) and the Clinton Health Access Initiative (CHAI) to support "
 "countries in strengthening the collection and use of health data by using "
-"DHIS2. The application has been developed by [EyeSeeTea SL](http://"
-"eyeseetea.com). Source code, documentation and release notes can be found at "
-"the [EyeSeetea GitHub Project Page](https://eyeseetea.github.io/Bulk-Load-"
+"DHIS2. The application has been developed by [EyeSeeTea SL](http://eyeseetea."
+"com). Source code, documentation and release notes can be found at the "
+"[EyeSeetea GitHub Project Page](https://eyeseetea.github.io/Bulk-Load-"
 "blessed/)."
 msgstr ""
 

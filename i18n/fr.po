@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Bulk Load App\n"
-"POT-Creation-Date: 2026-09-04T03:02:52.457Z\n"
+"POT-Creation-Date: 2026-10-22T18:43:06.487Z\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -709,7 +709,7 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
-msgid "Basic (only row schema)"
+msgid "Basic"
 msgstr ""
 
 #, fuzzy
@@ -718,6 +718,10 @@ msgstr "Accès à la génération de modèles"
 
 msgid "Fixed Metadata / Dynamic Metadata (TODO)"
 msgstr ""
+
+#, fuzzy
+msgid "Data elements as rows (data entries as columns)"
+msgstr "Éléments de données utilisés pour l'identification des doublons"
 
 msgid "Styles"
 msgstr ""
@@ -914,6 +918,35 @@ msgstr "Période"
 
 msgid "Category Option - Row"
 msgstr ""
+
+msgid "Layout"
+msgstr ""
+
+#, fuzzy
+msgid "Organisation Unit - Row"
+msgstr "Unités d'organisation"
+
+#, fuzzy
+msgid "Period - Row"
+msgstr "Période"
+
+#, fuzzy
+msgid "Attribute - Row"
+msgstr "Titre"
+
+#, fuzzy
+msgid "Completed - Sheet"
+msgstr "Effacé"
+
+msgid "Completed - Row (optional)"
+msgstr ""
+
+msgid "Data Element - Column"
+msgstr ""
+
+#, fuzzy
+msgid "Category Option - Column"
+msgstr "Période"
 
 msgid "Coordinates Latitude - Sheet"
 msgstr ""
@@ -1443,9 +1476,9 @@ msgid ""
 "Samaritan’s Purse, Medecins Sans Frontières (MSF), the the Norwegian Refugee "
 "Council (NRC) and the Clinton Health Access Initiative (CHAI) to support "
 "countries in strengthening the collection and use of health data by using "
-"DHIS2. The application has been developed by [EyeSeeTea SL](http://"
-"eyeseetea.com). Source code, documentation and release notes can be found at "
-"the [EyeSeetea GitHub Project Page](https://eyeseetea.github.io/Bulk-Load-"
+"DHIS2. The application has been developed by [EyeSeeTea SL](http://eyeseetea."
+"com). Source code, documentation and release notes can be found at the "
+"[EyeSeetea GitHub Project Page](https://eyeseetea.github.io/Bulk-Load-"
 "blessed/)."
 msgstr ""
 
@@ -1544,10 +1577,10 @@ msgid ""
 "data that was existing for such organisation unit and periods in the system "
 "will be deleted first, so none will be kept before doing the import."
 msgstr ""
-"Toutes les données de la feuille de calcul seront importées dans le "
-"système,mais les données existantes pour ces unités d'organisation et ces "
-"périodes seront d'abord supprimées; aucune donnée existante ne sera donc "
-"conservée avant l'importation."
+"Toutes les données de la feuille de calcul seront importées dans le système,"
+"mais les données existantes pour ces unités d'organisation et ces périodes "
+"seront d'abord supprimées; aucune donnée existante ne sera donc conservée "
+"avant l'importation."
 
 msgid ""
 "Import only new data values, without updating nor deleting any existing one. "
@@ -1563,10 +1596,10 @@ msgid ""
 "spreadsheet will be imported to the system, but other data values present in "
 "the system that are not provided in the spreadsheet will be kept."
 msgstr ""
-"Importer les nouvelles valeurs et mettre à jour les valeurs "
-"existantes.Toutes les données de la feuille de calcul seront importées,mais "
-"les autres valeurs présentes dans le système et absentes de la feuille de "
-"calcul seront conservées."
+"Importer les nouvelles valeurs et mettre à jour les valeurs existantes."
+"Toutes les données de la feuille de calcul seront importées,mais les autres "
+"valeurs présentes dans le système et absentes de la feuille de calcul seront "
+"conservées."
 
 msgid "Warning: Your upload may result in the generation of duplicates"
 msgstr ""
